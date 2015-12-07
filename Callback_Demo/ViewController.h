@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CallBackDelegate.h"
 
-@interface ViewController : UIViewController<CallBackDelegate>
-
-@property (weak, nonatomic) id<CallBackDelegate> delegate;
+@interface ViewController : UIViewController
 
 @end
 

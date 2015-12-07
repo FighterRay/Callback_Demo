@@ -26,7 +26,6 @@
 		E252997D1C11A3C200E829C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25299801C11A3C200E829C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E25299821C11A3C200E829C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E25299881C11A50F00E829C5 /* CallBackDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallBackDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +63,6 @@
 				E25299771C11A3C200E829C5 /* ViewController.h */,
 				E25299781C11A3C200E829C5 /* ViewController.m */,
 				E252997A1C11A3C200E829C5 /* Main.storyboard */,
-				E25299881C11A50F00E829C5 /* CallBackDelegate.h */,
 				E252997D1C11A3C200E829C5 /* Assets.xcassets */,
 				E252997F1C11A3C200E829C5 /* LaunchScreen.storyboard */,
 				E25299821C11A3C200E829C5 /* Info.plist */,
@@ -301,6 +299,7 @@
 				E25299871C11A3C200E829C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

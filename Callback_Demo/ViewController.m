@@ -23,17 +23,10 @@ typedef void(^ myBlock)(NSString *);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-#pragma mark - Delegate Callback
+#pragma mark - target-action Callback
 
 - (IBAction)delegateCallback:(id)sender {
-    NSString *s = @"delegateCallback";
-    _textLabel.text = s;
-    
-    [self.delegate showStringWithDelegate:s];
-}
-
-- (void)showStringWithDelegate:(NSString *)string{
-    _textLabel.text = string;
+    _textLabel.text = @"target-action Callback";
 }
 
 #pragma mark - Notification Callback
